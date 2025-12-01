@@ -14,7 +14,7 @@ public class Main {
         Product toiletPaper = new Product("Toilet Paper", 100, 2.5F);
         SuperMarket picnic = new SuperMarket(bread, cheese, fruit, toiletPaper);
         Scanner scanner = new Scanner(System.in);
-        Boolean isShopping = true;
+        boolean isShopping = true;
 
 //      Give supermarket object to customer
         wis.goToSuperMarket(picnic);
