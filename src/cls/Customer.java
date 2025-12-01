@@ -24,7 +24,7 @@ public class Customer {
         } else if (productNameFormat.equals("TOILETPAPER")) {
             superMarket.buyToiletPaper(amount);
         } else {
-            System.out.printf("The market has no %s available.", productName);
+            System.out.printf("The market has no %s available.\n", productName);
         }
     }
 }
